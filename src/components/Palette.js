@@ -5,8 +5,7 @@ function Palette({palette}) {
     return (
         <div className="shadow border-0 palette-item">
             <div className="palette">
-                <div className="place c5" style={{backgroundColor: palette[0]}}>
-                </div>    
+                <div className="place c5" style={{backgroundColor: palette[0]}}></div>    
                 <div className="place c4" style={{backgroundColor: palette[1]}}></div>
                 <div className="place c3" style={{backgroundColor: palette[2]}}></div>
                 <div className="place c2" style={{backgroundColor: palette[3]}}></div>
